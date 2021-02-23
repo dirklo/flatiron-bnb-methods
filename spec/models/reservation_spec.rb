@@ -53,7 +53,7 @@ describe Reservation do
       expect(@invalid_same_ids).to_not be_valid
     end
 
-    it 'validates that a listing is available at checkin before making reservation' do 
+    it 'validates that a listing is available at checkin before making reservation' do
       expect(@invalid_checkin).to_not be_valid
     end
 
